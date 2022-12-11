@@ -1,10 +1,16 @@
 # What Classifier_AI is
 In this project, I sought to use and explore the Python libraries TensorFlow, Numpy, and Matplotlib, and to learn more about training machine learning models.\
-It's a model trained on the MNIST database of handwritten digits to be able to classify images with their respective number.
+It's a model trained on the MNIST database of handwritten digits to be able to classify images with their respective number.\
 ![75](https://user-images.githubusercontent.com/73020909/206880132-0218a213-7760-43f9-891c-fd78c4435112.png)
 ![104](https://user-images.githubusercontent.com/73020909/206880134-7a433ca4-d480-4ad4-80db-3923aea9e4a3.png)
 ![28](https://user-images.githubusercontent.com/73020909/206880135-0d7f1daa-2fde-45b6-8ae7-bfe7cf2fb4bf.png)
 ![250](https://user-images.githubusercontent.com/73020909/206880137-c4c50e30-b3b9-439d-8a7a-8845a031bb2e.png)
+![142](https://user-images.githubusercontent.com/73020909/206880144-439098e6-8e04-4851-8959-bb23379da58f.png)
+![335](https://user-images.githubusercontent.com/73020909/206880145-89881290-3cf9-47fd-bf7e-49067110e3ea.png)
+![155](https://user-images.githubusercontent.com/73020909/206880149-58559a41-7a7c-4ce6-b6b5-17b94c88e6a9.png)
+![185](https://user-images.githubusercontent.com/73020909/206880152-a55a0a8d-6b8e-46fa-834e-b833f1b05647.png)
+![503](https://user-images.githubusercontent.com/73020909/206880155-3835353c-8964-42cf-a64b-59281b294e33.png)
+![154](https://user-images.githubusercontent.com/73020909/206880156-951d0f71-b0f9-4715-a4eb-0a1a96335ea5.png)
 
 # How it works
 
