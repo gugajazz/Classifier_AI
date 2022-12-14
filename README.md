@@ -13,13 +13,21 @@ It's a model trained on the MNIST database of handwritten digits to be able to c
 ![154](https://user-images.githubusercontent.com/73020909/206880156-951d0f71-b0f9-4715-a4eb-0a1a96335ea5.png)
 
 # How it works
+It defines and then uses the functions create_dataset_from_img and create_dataset_from_path to parse the png files to tenserflow datasets for training and validation.\
+The code then flatens the (28,28,3) matrixes to (28,28,1) since having multiple color channels is irrelevant in greyscale images.\
+
+We then define the model archictecture\
+![Model](https://user-images.githubusercontent.com/73020909/207657741-1aca96f2-fa54-4edd-aca6-fa03d3e536d3.png)
+
+Following that we train it to the data then test it on data that it wasn't trained on.
 
 # Results
+Plot of validation accuracy and validation loss per epoch\
+![Plot](https://user-images.githubusercontent.com/73020909/207658226-3cbaf288-e314-4cf9-b00b-5213cf29a1d0.png)
 
-# How to use it
-In
+# Guide to seting up the environment
+Tested on windows 10 and nvidia GPU.
 
-# Seting up the environment
 Install anaconda
 https://www.anaconda.com/products/distribution
 
