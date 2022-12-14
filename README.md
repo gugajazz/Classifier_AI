@@ -13,8 +13,8 @@ It's a model trained on the MNIST database of handwritten digits to be able to c
 ![154](https://user-images.githubusercontent.com/73020909/206880156-951d0f71-b0f9-4715-a4eb-0a1a96335ea5.png)
 
 # How it works
-It defines and then uses the functions create_dataset_from_img and create_dataset_from_path to parse the png files to tenserflow datasets for training and validation.\
-The code then flatens the (28,28,3) matrixes to (28,28,1) since having multiple color channels is irrelevant in greyscale images.\
+It defines and then uses the functions create_dataset_from_img and create_dataset_from_path to parse the png files to TensorFlow datasets for training and validation.\
+The code then flattens the (28,28,3) matrixes to (28,28,1) since having multiple color channels is irrelevant in greyscale images.\
 
 We then define the model archictecture\
 ![Model](https://user-images.githubusercontent.com/73020909/207657741-1aca96f2-fa54-4edd-aca6-fa03d3e536d3.png)
@@ -25,7 +25,7 @@ Following that we train it to the data then test it on data that it wasn't train
 Plot of validation accuracy and validation loss per epoch\
 ![Plot](https://user-images.githubusercontent.com/73020909/207658226-3cbaf288-e314-4cf9-b00b-5213cf29a1d0.png)
 
-# Guide to seting up the environment
+# Guide to setting up the environment
 Tested on windows 10 and nvidia GPU.
 
 Install anaconda
@@ -36,14 +36,14 @@ https://www.tensorflow.org/install/source#gpu
 ![Pasted image 20220916164649](https://user-images.githubusercontent.com/73020909/206879955-deca25b5-e4ea-4660-bd71-a1eb4ed56563.png)
 
 
-Download Microsoft Visual Studio (no need for any workflows). Might be a good idea to install older version so its compatible or check
+Download Microsoft Visual Studio (no need for any workflows). Might be a good idea to install the older version so its compatible or check
 https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html
 for suported versions.
 
-Install the correct version of the cuda toolkit according to the tenserflow version.
+Install the correct version of the cuda toolkit according to the TensorFlow version.
 https://developer.nvidia.com/cuda-toolkit-archive
 
-Download the correct CuDNN according to the tenserflow version.
+Download the correct CuDNN according to the TensorFlow version.
 https://developer.nvidia.com/cudnn
 
 Extract the CuDNN zip, go to the path `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0` and paste the zip's content in there.
@@ -56,7 +56,7 @@ On the anaconda prompt (admin)
 Replace the versions accordingly.
 
 `pip install --upgrade pip`
-`pip install tensorflow`
+`pip install TensorFlow`
 
 In the Jupyter shortcut go to properties and change target to this
 `C:\Users\USERNAME\anaconda3\python.exe C:\Users\Gustavo\anaconda3\cwp.py C:\Users\USERNAME\anaconda3 C:\Users\USERNAME\anaconda3\python.exe C:\Users\USERNAME\anaconda3\Scripts\jupyter-notebook-script.py "D:\AI_Projects"`, aka replace %USERPROFILE% with the intended startup path.
@@ -74,11 +74,11 @@ jt -l
 jt -t gruvboxd
 ````
 
-On PyCharm create a project using the anaconda interperter on the desired dir.
+On PyCharm create a project using the anaconda interpreter on the desired dir.
 ![Pasted image 20220918125807](https://user-images.githubusercontent.com/73020909/206880007-e8db210b-2e86-4e27-9798-0e9f9e12aaec.png)
 
 Set the server to the url given in the Jupyter terminal.
-If it warns that the kernel of the newly configured server doesn't match your current Python interpreter just "register project interperter as kernel".
+If it warns that the kernel of the newly configured server doesn't match your current Python interpreter just "register project interpreter as kernel".
 If it gives error like ``ImportError: DLL load failed while importing _sqlite3: The specified module could not be found.`` copy sqlite3.dll from `C:\Users\USERNAME\anaconda3\Library\bin` to `C:\Users\USERNAME\anaconda3\DLLs`.
 
 
