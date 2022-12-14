@@ -1,6 +1,7 @@
 # What Classifier_AI is
 In this project, I sought to use and explore the Python libraries TensorFlow, Numpy, and Matplotlib, and to learn more about training machine learning models.\
 It's a model trained on the MNIST database of handwritten digits to be able to classify images with their respective number.\
+Example of training data:\
 ![75](https://user-images.githubusercontent.com/73020909/206880132-0218a213-7760-43f9-891c-fd78c4435112.png)
 ![104](https://user-images.githubusercontent.com/73020909/206880134-7a433ca4-d480-4ad4-80db-3923aea9e4a3.png)
 ![28](https://user-images.githubusercontent.com/73020909/206880135-0d7f1daa-2fde-45b6-8ae7-bfe7cf2fb4bf.png)
